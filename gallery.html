@@ -1,0 +1,42 @@
+<div class="inner-page-gallery">
+	<div class="inner-page-section section-01">
+		<div class="center-tabs">
+			<div class="row">
+				<div class="col-md-12">
+					<h1 class="text-center">Gallery</h1>
+					<!-- Gallery tabs -->
+					<div class="product data items tabs" data-mage-init='{"tabs":{"openedState":"active"}}'>
+					    <div data-role="collapsible" class="data item title">
+					        <div data-role="trigger" class="data switch">Instagram</div>
+					    </div>
+					    <div data-role="content" class="data item content">
+					    	{{widget type="Olegnax\InstagramMin\Block\Widget\Instagram" images_count="7" columns_desktop="3" columns_tablet="2" columns_mobile="1" lazy_load="noexclude" template="Olegnax_InstagramMin::widget/instagram_list_2.phtml" image_resize="maxheight"}}
+					    </div>
+
+					    <div data-role="collapsible" class="data item title">
+					        <div data-role="trigger" class="data switch">Plantations</div>
+					    </div>
+					    <div data-role="content" class="data item content">
+							{{widget type="Olegnax\InstagramMin\Block\Widget\Instagram" images_count="7" columns_desktop="3" columns_tablet="2" columns_mobile="1" lazy_load="noexclude" template="Olegnax_InstagramMin::widget/instagram_list_2.phtml" image_resize="maxheight"}}
+					    </div>
+
+					    <div data-role="collapsible" class="data item title">
+					        <div data-role="trigger" class="data switch">Tea</div>
+					    </div>
+					    <div data-role="content" class="data item content">
+					    	{{widget type="Olegnax\InstagramMin\Block\Widget\Instagram" images_count="7" columns_desktop="3" columns_tablet="2" columns_mobile="1" lazy_load="noexclude" template="Olegnax_InstagramMin::widget/instagram_list_2.phtml" image_resize="maxheight"}}
+					    </div>
+
+					    <div data-role="collapsible" class="data item title">
+					        <div data-role="trigger" class="data switch">Sample</div>
+					    </div>
+					    <div data-role="content" class="data item content">
+					    	{{block class="Magento\Framework\View\Element\Template" name="myname" template="Magento_Theme::gallery/sample.phtml"}}
+					    </div>
+					</div>
+					<!-- EOF Gallery tabs -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
